@@ -1,0 +1,91 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Ajouts importants pour Flutter :
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/.symlinks/
+
+# Fichiers Android
+/android/local.properties
+/android/app/.classpath
+/android/app/.project
+/android/app/.settings/
+
+# Fichiers Windows
+/windows/flutter/
+/windows/runner/flutter_window.cpp
+/windows/runner/main.cpp
+
+# Fichiers macOS
+/macos/Flutter/GeneratedPluginRegistrant.swift
+/macos/Flutter/ephemeral/
+
+# Fichiers Web
+/web/
+
+# Fichiers sensibles (AJOUT CRITIQUE)
+*.key
+*.p12
+*.p8
+*.pem
+google-services.json
+GoogleService-Info.plist
+firebase_options.dart
+.env
+.env.*
+keys.dart
+secrets.dart
+
+# Fichiers de cache et logs
+.navigation/
+.navigation.json
+pubspec.lock  # Décommentez si vous êtes une application (pas une bibliothèque)
